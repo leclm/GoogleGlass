@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo Sobre Google Glass</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/specs.css">
+</head>
+<script src="_javascript/funcoes.js"></script>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup> <!-- Essa tag não é mais utilizada -->
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            
+            <img id="icone" src="_imagens/especificacoes.png" alt="Imagem de um Google Glass preto">
+            
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseout="mudaFoto('_imagens/especificacoes.png')" 
+                    onmouseover="mudaFoto('_imagens/home.png')"><a href="index.html">Home</a></li>
+
+                    <li><a href="specs.html">Especificações</a></li>
+
+                    <li onmouseout="mudaFoto('_imagens/especificacoes.png')" 
+                    onmouseover="mudaFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+
+                    <li onmouseout="mudaFoto('_imagens/especificacoes.png')" 
+                    onmouseover="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+
+                    <li onmouseout="mudaFoto('_imagens/especificacoes.png')" 
+                    onmouseover="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="corpo-full">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Glass > Especificações</h3>
+                    <h1>Raio-X no Google Glass</h1>
+                    <h2>por Letícia Chagas</h2>
+                    <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                </hgroup>
+            </header>
+
+            <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+
+            <section id="conteudo">
+                <img src="_imagens/glass-esquema-marcado.jpg" alt="Foto do Google Glass com marcações em vermelho." usemap="#meumapa">
+                <map name="meumapa">
+                    <area shape="poly" coords="184, 221, 184, 257, 267, 245, 266, 208" href="google-glass.html#tela" target="janela">
+                    <area shape="circle" coords="158, 244, 12" href="google-glass.html#camera" target="janela">
+                    <area shape="poly" coords="28, 145, 26, 167, 83, 252, 82, 216" href="google-glass.html#sensores" target="janela">
+                    <area shape="circle" coords="76, 51, 11" href="google-glass.html#gadgets" target="janela">
+                </map>
+                <iframe src="google-glass.html" name="janela" id="frame-spec" frameborder="0"></iframe>
+            </section>
+        </section>
+
+<footer id="rodape">
+    <p>
+        Copyright &copy; 2020 - by Letícia Chagas </br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="http://www.facebook.com/lelima03" target="_blank">Facebook</a> |
+        <a href="http://www.instagram.com/leclm_" target="_blank">Instagram</a> | 
+        <a href="https://www.linkedin.com/in/let%C3%ADcia-das-chagas-lima-06b611152/" target="_blank">LinkedIn</a>
+    </p>
+</footer>
+</div>
+</body>
+</html>
